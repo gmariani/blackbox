@@ -1,11 +1,6 @@
 <?php
 if (session_id() == "") session_start();
 
-
-include 'login_functions.php';
-
-//$lp = $_POST['lastpage'];
-
 $username = $_POST['u'];
 $password = $_POST['p'];
 $sessionID = session_id();
